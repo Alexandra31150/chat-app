@@ -1,9 +1,6 @@
 import React from "react";
-import "./App.css";
-import Contact from "./components/contact";
-import "./components/contact.css";
 
-function App() {
+function Contact() {
   return (
     <div className="Contact">
       <img
@@ -21,5 +18,4 @@ function App() {
     </div>
   );
 }
-
-export default App;
+export default Contact;
